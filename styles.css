@@ -78,3 +78,11 @@ h2{
 .bold{
   font-weight: bold;
 }
+
+@media(max-width:765px){
+  .imgCamas{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
